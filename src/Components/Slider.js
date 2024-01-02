@@ -76,7 +76,7 @@ const Imageslider = () => {
 
   return (
       <div className='slider-container'>
-          <Slider {...settings} style={{maxWidth:"90%",maxHeight:"90vh"}}>
+          <Slider {...settings} style={{maxWidth:"90%",maxHeight:"90vh",marginBottom:"150px"}}>
               <div>
                   <VideoText />
               </div>
